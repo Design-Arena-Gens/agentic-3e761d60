@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, rgba(26, 86, 219, 0.15), rgba(249, 115, 22, 0.15));
+}
+
+.glass {
+  @apply backdrop-blur-sm bg-white/80 border border-white/40 shadow-soft;
+}
